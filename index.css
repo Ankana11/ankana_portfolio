@@ -33,8 +33,6 @@ html{
 .navlist {
     display: flex;
     list-style: none;
-    /* margin: 17px; */
-
     padding: 10px 10px;
 }
 
@@ -153,7 +151,7 @@ html{
 
 .navlist-resp {
     align-self: flex-end;
-    /* Add this line */
+    
 }
 
 /* About section------------ */
@@ -178,29 +176,14 @@ html{
 }
 
 .Container {
-    width: 650px;
-    padding: 20px;
+    
+    padding: 34px;
     margin: 25px auto;
     box-sizing: 0 0 5px rgba(0, 0, 0, 0.5);
     justify-content: center;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.about .about-content .left {
-    /* width: 40%; */
-     padding: 19px 20px; 
-    
-}
-
-.column.left img {
-   width: 100%;
-   max-width: 400px; /* Adjust this max-width as per your preference */
-   height: 69%;
-   object-fit: cover;
-   border-radius: 50%;
-}
-
 .about .about-content .right {
     color: black;
     width: 51%;
@@ -338,8 +321,6 @@ label {
    flex-wrap: wrap;
 }
 
-
-
 .card {
    background-color: antiquewhite;
     width: 500px;
@@ -428,8 +409,6 @@ label {
    text-align: center;
 }
 
-
-
 .email a{
  text-decoration: none;
  font-size: 32px;
@@ -458,7 +437,6 @@ footer {
 @media only screen and (max-width: 1100px) {
     .home {
         flex-direction: column-reverse;
-        /* Change to column layout */
         align-items: center;
         height: auto;
     }
@@ -469,7 +447,6 @@ footer {
     .navlist {
         flex-direction: column;
         align-items: flex-end;
-        /* transform: translateX(100%); */
     }
 
     .navbar {
@@ -478,7 +455,7 @@ footer {
         height: 230px;
         justify-content: space-between;
         display: flex;
-        /* align-items: start; */
+        
     }
 
     .burger {
@@ -491,9 +468,8 @@ footer {
 
     .v-class-resp {
         display: none;
-        /* Hide the element when not needed */
+       
     }
-
 
     .sec-container .box-container {
        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -507,8 +483,6 @@ footer {
        font-size: 18px;
    }
 
-
-
     .logo {
         align-self: flex-start;
         margin: 6px;
@@ -516,7 +490,7 @@ footer {
 
     .navlist-resp {
         align-self: flex-end;
-        /* Add this line */
+      
     }
 
     .gif img {
@@ -542,10 +516,7 @@ footer {
        flex-direction: column;
        align-items: center;
    }
-   .column.left img {
-       max-width: 100%;
-       height:auto;
-   }
+   
 
    .container-right {
        flex: none;
@@ -553,7 +524,6 @@ footer {
       
    }
   
-
    .contact a {
        font-size: 30px;
        margin: 20px;
@@ -566,9 +536,7 @@ footer {
        align-items: center;
        overflow: auto;
    }
-
-   
-      
+  
 .email a{
    
    font-size: 18px;
