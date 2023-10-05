@@ -158,7 +158,7 @@ html{
 
 
 #about {
-    background-color: beige;
+    background-color: white;
     
 }
 
@@ -175,6 +175,7 @@ html{
  
 }
 
+
 .Container {
     
     padding: 34px;
@@ -184,6 +185,36 @@ html{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.about .about-content .left {
+   
+     padding: 19px 20px; 
+    
+}
+
+.column.left img {
+    margin: 5px;
+    margin-bottom: 5px;
+   
+   margin-bottom: 60px;
+   width: auto;
+   object-fit: cover;
+   height: auto;
+   border: 1px ;
+   border-radius: 50%;
+ 
+
+}
+.column.left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    padding: 19px 20px;
+}
+
 .about .about-content .right {
     color: black;
     width: 51%;
@@ -200,7 +231,7 @@ html{
 
 
 .Container h2 {
-    margin-bottom: 10px;
+    margin-bottom: 34px;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -344,10 +375,10 @@ label {
    background-image: url('https://store-images.s-microsoft.com/image/apps.6873.14473180969187901.41352e41-c0c5-419e-b926-59f1d624bcbc.381bc7df-9235-44d9-92e7-1372fe96a276?q=90&w=480&h=270');
 }
 .image4{
-   background-image: url('https://media.istockphoto.com/id/1353072603/video/web-development-concept.jpg?s=640x640&k=20&c=9wbS2w7j9lEj7C8_lBJx9H5Z7SqEDK7XmUVwcuYR9PE=');
+   background-image: url('https://www.pngkit.com/png/detail/231-2317519_cart-icon-e-commerce-web-icon.png');
 }
 .image5{
-   background-image: url('https://f4n3x6c5.stackpathcdn.com/article/what-is-database-management/Images/What%20is%20Database%20Management.jpg');
+   background-image: url('https://media.istockphoto.com/id/1400292331/photo/relational-database-tables-with-server-room-and-datacenter-background-concept-of-database.webp?b=1&s=170667a&w=0&k=20&c=Tg_VtEYKljVL5twTz6YlDf_Sw_-wj976vLT1VhvG53s=');
 }
 .image6{
    background-image: url('https://edtechteacher.org/wp-content/uploads/2017/01/5-Things-to-include-in-Digital-Portfolio-EdTechTeacher.png');
@@ -471,6 +502,21 @@ footer {
        
     }
 
+    .column.left img {
+      
+       width: 49%;
+       object-fit: cover;
+       height: 71%;
+       margin: 2px;
+       border: 2px ;
+       border-radius: 50%;
+    
+    }
+    .img{
+       width: 100%;
+       height: 100%;
+    }
+
     .sec-container .box-container {
        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
    }
@@ -509,17 +555,15 @@ footer {
     }
     .Container {
        width: 100%;
-       padding: 10px; 
        font-size: 16px
      }
     .about-content {
        flex-direction: column;
-       align-items: center;
+      
    }
-   
 
    .container-right {
-       flex: none;
+    
        padding: 0px;
       
    }
