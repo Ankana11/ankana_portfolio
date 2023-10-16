@@ -40,7 +40,7 @@ const textElement = document.getElementById('typing-animation');
 const texts = [
     'Developer',
     'Problem Solver',
-    'Aspiring Software Engineer',
+    'Software Engineer',
     'Quick learner'
 ];
 typeWriter(textElement, texts, 100); 
